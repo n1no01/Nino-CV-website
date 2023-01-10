@@ -128,17 +128,13 @@ h3 {
 }
 
 .icons-links {
-    padding: 0 2%;
+    width: 2%;
+    padding: 0 0.3%;
     margin: auto;
 }
 
-.links {
-    color: #11999E;
-    padding: 0 0.7%;
-}
-
-.links:hover {
-    color: #000000;
+.icons-links:hover{
+    transform: scale(1.3);
 }
 
 @media screen and (max-width:600px) { 
