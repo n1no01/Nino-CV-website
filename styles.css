@@ -129,14 +129,13 @@ h3 {
     
 }
 
-a {
-    text-decoration: none !important;
-}
-
 .icons-links {
     width: 2%;
     padding: 0 0.3%;
-    margin: auto;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 .icons-links:hover{
@@ -203,10 +202,7 @@ a {
     }
     
     .icons-links {
-        padding: 0 5%;
-    }
-    
-    .links {
-        width: 15%;
+        padding: 1%;
+        width: 25px;
     }
 }
