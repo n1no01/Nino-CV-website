@@ -42,20 +42,21 @@ h3 {
 }
 
 .top-cloud {
-    position: relative;
-    left: 20%;
+    position: absolute;
     top: 10%;
+    right: 25%;
 }
 
 .bottom-cloud {
-    position: relative;
-    left: 5%;
-    bottom: 40%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
 }
 
 .mountain {
+    display: block;
     width: 40%;
-    margin: 0 9% 0 0;
+    margin: 0 auto;
 }
 
 .middle-container {
@@ -149,19 +150,16 @@ h3 {
     }
     .top-cloud {
         width: 20%;
-        left: 32%;
+        position: absolute;
         top: 10%;
+        right: 10%;
     }
     
     .bottom-cloud {
         width: 20%;
-        left: 5%;
-        bottom: 25%;
-    }
-    
-    .mountain {
-        width: 70%;
-        margin: 0 9% 0 -3%
+        position: absolute;
+        top: 30%;
+        left: 15%;
     }
     
     #profile-photo {
@@ -205,6 +203,6 @@ h3 {
     }
     
     .links {
-        margin: auto;
+        width: 15%;
     }
 }
